@@ -919,6 +919,7 @@
 .contact-area {
   height: 100%;
   width: 100%;
+  padding-top: 10rem;
 }
 
 .contact-content {
@@ -4073,6 +4074,7 @@ button:hover {
 .fcontactquote {
   background-color: #ffffff;
   padding: 60px;
+  margin-bottom: 5rem;
 }
 .fcontactquote h6 {
   color: #211b55;
