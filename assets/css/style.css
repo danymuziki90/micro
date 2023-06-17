@@ -442,8 +442,8 @@
   position: relative;
 }
 .about1{
-  margin-left: 40vh;
-  margin-right: 40vh;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 ..reviews-area p {
   color: #001447;
@@ -4088,12 +4088,10 @@ button:hover {
 .fcontactquote {
   z-index: 1;
   position: absolute;
-  margin: 0 auto;
-  left: 0;
-  right: 0;
-  top: 25%;
+  left: 10%;
+  right: 10%;
+  top: 50px;
   bottom: 0%;
-  width: 500px;
   height: fit-content;
 }
 h7 {
