@@ -35,7 +35,7 @@
 
 #hero .carousel-item::before {
   content: "";
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.842);
 }
 
 #hero .carousel-container {
@@ -67,13 +67,6 @@
   }
 }
 
-#hero p {
-  width: 80%;
-  font-size: 38px;
-  line-height: 1.2;
-  margin: 0 auto 30px auto;
-  color: #fff;
-}
 
 @media (min-width: 1024px) {
   #hero p {
@@ -186,253 +179,6 @@
 }
 
 /*--------------------------------------------------------------
-# Services
---------------------------------------------------------------*/
-.services-icon {
-  color: #444;
-  display: inline-block;
-  font-size: 36px;
-  line-height: 36px;
-  margin-bottom: 20px;
-}
-
-.section-headline.services-head > h2 {
-  margin-bottom: 25px;
-}
-
-.services-details {
-  padding-top: 40px;
-  transition: all 0.5s ease 0s;
-}
-
-.services-details:hover h4,
-.services-details:hover .services-icon {
-  color: #3ec1d5;
-}
-
-.row.second-row {
-  margin-top: 40px;
-}
-
-.section-head > h2 {
-  color: #333;
-}
-
-.single-services > h4 {
-  color: #444;
-  font-size: 24px;
-  font-weight: 500;
-}
-
-.single-services > p {
-  color: #333;
-  font-size: 14px;
-}
-
-/*--------------------------------------------------------------
-# Team
---------------------------------------------------------------*/
-.team-member {
-  background: rgba(0, 0, 0, 0.65) none repeat scroll 0 0;
-  display: block;
-  margin-right: -15px;
-  padding: 10px;
-  position: relative;
-  overflow: hidden;
-}
-
-.team-member::before {
-  background: rgba(0, 0, 0, 0) url("../img/team/team01.jpg") repeat scroll 0 0;
-  content: "";
-  display: block;
-  height: 100%;
-  left: 0;
-  margin-right: -15px;
-  padding: 10px;
-  position: absolute;
-  top: 0;
-  width: 100%;
-  z-index: -1;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: top center;
-  transition: 5s;
-  transform: scale(1);
-}
-
-.team-member:hover.team-member::before {
-  transform: scale(1.2);
-}
-
-.single-team-member {
-  border: 1px solid #ddd;
-}
-
-.team-left-text h4 {
-  color: #fff;
-  font-size: 30px;
-  font-weight: 700;
-  text-transform: uppercase;
-}
-
-.team-left-text p {
-  color: #fff;
-  font-size: 17px;
-  line-height: 26px;
-}
-
-.email-news {
-  display: block;
-  margin: 30px 0;
-  overflow: hidden;
-  text-align: center;
-  width: 100%;
-}
-
-.email-news .email_button input {
-  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
-  border: 1px solid #fff;
-  color: #fff;
-  float: left;
-  font-size: 13px;
-  padding: 8px;
-  width: 81%;
-}
-
-.email-news .email_button > button {
-  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
-  border: 1px solid #fff;
-  color: #fff;
-  float: left;
-  font-size: 16px;
-  padding: 8px 12px;
-  text-align: center;
-}
-
-.email-news .email_button > button:hover {
-  background: #3ec1d5;
-  border: 1px solid #fff;
-  color: #fff;
-}
-
-.team-left-icon ul li {
-  display: inline-block;
-}
-
-.team-left-icon ul li a:hover {
-  color: #3ec1d5;
-  background: #fff;
-  border: 2px solid #fff;
-}
-
-.team-left-icon ul li a {
-  border: 2px solid #fff;
-  color: #fff;
-  display: block;
-  font-size: 16px;
-  height: 40px;
-  line-height: 37px;
-  margin: 0 3px;
-  width: 40px;
-}
-
-.team-member-carousel .single-team-member {
-  overflow: hidden;
-  width: 100%;
-}
-
-.single-team-member:hover .team-img a:after {
-  opacity: 1;
-}
-
-.single-team-member:hover .team-social-icon {
-  top: 45%;
-  opacity: 1;
-}
-
-.team-img {
-  position: relative;
-}
-
-.team-img > a {
-  display: block;
-}
-
-.team-img > a::after {
-  background: rgba(0, 0, 0, 0.7);
-  bottom: 0;
-  content: "";
-  height: 100%;
-  left: 0;
-  position: absolute;
-  transition: all 0.5s ease 0s;
-  width: 100%;
-  opacity: 0;
-}
-
-.team-social-icon {
-  left: 50%;
-  margin-left: -61px;
-  opacity: 0;
-  position: absolute;
-  top: 30%;
-  transition: 1.3s;
-}
-
-.team-social-icon ul li {
-  display: inline-block;
-}
-
-.team-social-icon ul li a {
-  border: 1px solid #fff;
-  border-radius: 50%;
-  color: #fff;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 14px;
-  height: 34px;
-  width: 34px;
-  margin: 0 3px;
-}
-
-.team-social-icon ul li a i {
-  line-height: 0;
-}
-
-.team-social-icon ul li a:hover {
-  color: #fff;
-  border: 1px solid #3ec1d5;
-  background: #3ec1d5;
-}
-
-.team-content {
-  padding: 10px 0px;
-}
-
-.team-content > h4,
-.team-content > p {
-  color: #444;
-  margin-bottom: 5px;
-}
-
-.team-content.head-team p {
-  margin-bottom: 0;
-}
-
-.team-left-icon.text-center {
-  margin-bottom: 20px;
-}
-
-.head-team h4 {
-  display: inline-block;
-  font-size: 25px;
-  font-weight: 600;
-  padding-bottom: 10px;
-  text-transform: uppercase;
-}
-
-/*--------------------------------------------------------------
 # Review
 --------------------------------------------------------------*/
 .reviews-area {
@@ -440,10 +186,12 @@
   overflow: hidden;
   height: auto;
   position: relative;
+  margin-bottom: 50px;
+
 }
 .about1{
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 ..reviews-area p {
   color: #001447;
@@ -463,7 +211,7 @@
   color: #080d49e1cc;
   font-size: 5vh;
   font-weight: 700;
-  line-height: 64px;
+  line-height: 50px;
   text-transform: uppercase;
 }
 ..work-right-text p{
@@ -2098,7 +1846,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Hanken Grotesk';
   margin: 0 0 15px;
   color: #051b5a;
   font-weight: 500;
@@ -2158,9 +1906,9 @@ a:hover {
 
 body {
   background: #fff none repeat scroll 0 0;
-  color: #210f83;
+  color: #0c043a;
   font-family: "Open Sans", sans-serif;
-  font-size: 1.5vh;
+  font-size: 1.8vh;
   text-align: left;
   overflow-x: hidden;
   line-height: 25px;
@@ -2673,7 +2421,7 @@ div#preloader {
 
 @media (max-width: 768px) {
   #hero p {
-    font-size: 28px;
+    font-size: 30px;
     line-height: 1.2;
   }
 }
@@ -2784,6 +2532,11 @@ div#preloader {
   font-size: 36px;
   line-height: 36px;
   margin-bottom: 20px;
+}
+.services-icon img{
+width: 400px;
+height: 170px;
+
 }
 
 .section-headline.services-head > h2 {
@@ -3421,132 +3174,6 @@ h3 {
   border: 2px solid #fff;
   color: #fff;
 }
-
-/*--------------------------------------------------------------
-# Contact
---------------------------------------------------------------*/
-.contact-area {
-  height: auto;
-  width: 100%;
-}
-input {
-  height: 6vh;
-}
-textarea {
-  height: 18vh;
-}
-.contact-content {
-  padding: 100px;
-  background: #000 none repeat scroll 0 0;
-}
-
-.contact-content-right {
-  padding: 100px;
-}
-
-.single-icon i {
-  font-size: 32px;
-  width: 50px;
-  height: 50px;
-  line-height: 56px;
-  border-radius: 50%;
-  margin-bottom: 30px;
-  color: #3ec1d5;
-}
-
-.single-icon p {
-  font-size: 16px;
-  line-height: 30px;
-}
-
-.php-email-form .validate {
-  display: none;
-  color: red;
-  margin: 0;
-  font-weight: 400;
-  font-size: 13px;
-}
-
-.php-email-form .error-message {
-  display: none;
-  color: #fff;
-  background: #ed3c0d;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-}
-
-.php-email-form .sent-message {
-  display: none;
-  color: #fff;
-  background: #18d26e;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-}
-
-.php-email-form .loading {
-  display: none;
-  background: #fff;
-  text-align: center;
-  padding: 15px;
-}
-
-.php-email-form .loading:before {
-  content: "";
-  display: inline-block;
-  border-radius: 50%;
-  width: 24px;
-  height: 24px;
-  margin: 0 10px -6px 0;
-  border: 3px solid #18d26e;
-  border-top-color: #eee;
-  animation: animate-loading 1s linear infinite;
-}
-
-.php-email-form input,
-.php-email-form textarea {
-  border-radius: 0;
-  box-shadow: none;
-  font-size: 14px;
-}
-
-.php-email-form input:focus,
-.php-email-form textarea:focus {
-  border-color: #3ec1d5;
-}
-
-.php-email-form input {
-  padding: 10px 15px;
-}
-
-.php-email-form textarea {
-  padding: 12px 15px;
-}
-
-.php-email-form button[type="submit"] {
-  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
-  border: 1px solid #ccc;
-  color: #000000;
-  font-size: 16px;
-  font-weight: 700;
-  margin-top: 8px;
-  padding: 12px 30px;
-  text-transform: uppercase;
-  transition: all 0.3s ease 0s;
-  border-radius: 30px;
-}
-
-@keyframes animate-loading {
-  0% {
-    transform: rotate(0deg);
-  }
-
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
@@ -3693,6 +3320,7 @@ li {
   .work-right-text {
     padding: 150px 150px;
   }
+
 }
 
 /* Normal desktop :992px. */
@@ -3713,13 +3341,29 @@ li {
     line-height: 50px;
   }
 }
+@media (max-width: 1169px) {
+  .slider-content {
+    padding: 146px 0;
+  }
+
+  .work-right-text {
+    padding: 0;
+  }
+
+  .work-right-text h2 {
+    font-size: 18px;
+    line-height: 50px;
+  }
+}
 
 /* Tablet desktop :768px. */
 @media (min-width: 768px) and (max-width: 991px) {
   .layer-1-1 h2 {
     font-size: 24px;
   }
-
+  video {
+    visibility: hidden;
+  }
   .layer-1-2 h1 {
     font-size: 31px;
     line-height: 38px;
@@ -3827,6 +3471,9 @@ li {
 
 /* small mobile :320px. */
 @media (max-width: 767px) {
+  video {
+    visibility: hidden;
+  }
   .slider-area {
     margin-top: 60px;
   }
@@ -4074,14 +3721,14 @@ button:hover {
 }
 .fcontactquote {
   background-color: #ffffff;
-  padding: 60px;
+  padding: 80px;
   margin-bottom: 5rem;
 }
 .fcontactquote h6 {
-  color: #211b55;
-  font-size: 1.6rem;
-  padding-bottom: 3rem;
-  font-weight: 600;
+ color: #211b55;
+    font-size: 20px;
+    padding-bottom: 1rem;
+    font-weight: 900;
 }
 .hero-container1 {
   display: inline-block;
@@ -4095,19 +3742,21 @@ button:hover {
   right: 10%;
   top: 50px;
   bottom: 0%;
-  height: fit-content;
-}
+  min-height: 500px;
+  max-height: 550px;
+  min-width:530px ;
+  max-width: 750px;
 h7 {
-  background-color: #a4f1ec;
-  padding: 2vh;
-  font-size: 1rem;
-  font-weight: 550;
-  color: #001d67ab;
-  position: absolute;
-  margin: 0;
-  left: 0;
-  right: 50%;
-  top: 0;
+    background-color: #ffff;
+    padding: 2vh;
+    font-size: xxx-small;
+    font-weight: 550;
+    color: #001d67ab;
+    position: absolute;
+    margin: 0;
+    left: 0;
+    right: 50%;
+    top: 0;
 }
 .cards {
   max-width: 1200px;
