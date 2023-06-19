@@ -1981,6 +1981,9 @@ li {
   .slider-content {
     padding: 0;
   }
+  video{
+    visibility: hidden;
+  }
  
 }
 
@@ -2094,10 +2097,16 @@ h7 {
   .cards {
     grid-template-columns: repeat(2, 1fr);
   }
+  video{
+    visibility: hidden;
+  }
 }
 @media (min-width: 900px) {
   .cards {
     grid-template-columns: repeat(3, 1fr);
+  }
+  video{
+    visibility: hidden;
   }
 }
 .testimonials-slider img{
