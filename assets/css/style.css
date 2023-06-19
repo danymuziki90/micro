@@ -499,10 +499,16 @@ div#preloader {
   padding: 0;
   margin: 0;
   max-height: 140px;
-  width: 100px;
+  
 }
 
 @media (max-width: 768px) {
+  #header .logo img {
+    padding: 0;
+    margin: 0;
+    max-height: 140px;
+    width: 100px;
+  }
   #header {
     height: 158px;
     background: #ffffff;
@@ -1701,7 +1707,12 @@ li {
   .layer-1-1 h2 {
     font-size: 24px;
   }
-
+  #header .logo img {
+    padding: 0;
+    margin: 0;
+    max-height: 140px;
+    width: 115px;
+  }
   }
   .layer-1-2 h1 {
     font-size: 31px;
@@ -1969,7 +1980,12 @@ li {
     float: none;
     width: 99.8%;
   }
-
+  #header .logo img {
+    padding: 0;
+    margin: 0;
+    max-height: 140px;
+    width: 110px;
+  }
  
   }
 
@@ -1977,6 +1993,12 @@ li {
 
 
 @media (max-width: 575px) {
+  #header .logo img {
+    padding: 0;
+    margin: 0;
+    max-height: 140px;
+    width: 110px;
+  }
   .slider-content {
     padding: 0;
   }
@@ -2094,8 +2116,20 @@ h7 {
   gap: 1rem;
 }
 @media (min-width: 600px) {
+  #header .logo img {
+    padding: 0;
+    margin: 0;
+    max-height: 140px;
+    width: 100px;
+  }
   .cards {
     grid-template-columns: repeat(2, 1fr);
+  }
+  #header .logo img {
+    padding: 0;
+    margin: 0;
+    max-height: 140px;
+    width: 110px;
   }
   video{
     visibility: hidden;
