@@ -452,7 +452,7 @@ div#preloader {
 
 .sec-head {
   display: inline-block;
-  font-size: 17px;
+  font-size: 15px;
   font-weight: 600;
   margin-bottom: 0;
   padding: 0 0 10px;
@@ -1999,6 +1999,7 @@ li {
 
 .form-group textarea {
   height: 200px;
+  
 }
 
 .contact-area {
@@ -2132,7 +2133,7 @@ background-color: white;
  }
  
  .heading {
-     font-size: 22px;
+     font-size: 20px;
      text-transform: uppercase;
      color: #8a6d0f;
  }
