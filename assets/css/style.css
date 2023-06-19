@@ -10,6 +10,7 @@ body {
   width: 100%;
   margin: 0;
   padding: 0;
+  background-color: #f1fdfd;
 
 }
 
@@ -993,7 +994,7 @@ height: 170px;
 }
 .single-services {
   text-align: center;
-  border-color: #18d26e;
+  border-color: #ffffff;
 }
 .single-services p {
   align-items: center;
@@ -2002,7 +2003,7 @@ li {
 }
 
 .contact-area {
-  background-color: #f1fdfd;
+  background-color: #ffffff;
 }
 .contact-form p {
   color: white;
