@@ -2188,3 +2188,9 @@ img {
 .aboutline p{
   color: #b3b6be;
 }
+#header .logo img {
+  padding: 0;
+  margin: 0;
+  max-height: 130px;
+  max-width: 150px;
+}
