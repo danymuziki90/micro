@@ -52,8 +52,8 @@ img {
 }
 
 p {
-  font-size: 20%
-  color: black;
+  font-size: 12px;
+  color:#cdd0d8ee
 }
 
 h1,
@@ -2186,10 +2186,7 @@ img{
   color: #eeeeeea1;
  }
 
-.aboutline p{
-  padding-bottom: 3rem;
-  border-bottom: #cdd6df;
-}
+
 .single-icon p{
 text-align: justify;
 }
@@ -2229,4 +2226,8 @@ background-color: #881a1a;
   }
   .sus-btn {
     background-color: #daa53cfa;
+  }
+  .aboutline p{
+    padding-bottom: 3rem;
+    border-bottom: #dbe0e6;
   }
