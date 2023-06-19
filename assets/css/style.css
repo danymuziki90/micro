@@ -770,12 +770,7 @@ div#preloader {
   #hero {
     height: 150vh;
   }
-  #header .logo img {
-    padding: 0;
-    margin: 0;
-    max-height: 140px;
-    width: 100px;
-  }
+
 }
 
 #hero .carousel,
@@ -833,6 +828,12 @@ div#preloader {
   #hero h2 {
     font-size: 20px;
     font-weight: 50;
+  }
+  #header .logo img {
+    padding: 0;
+    margin: 0;
+    max-height: 140px;
+    width: 110px;
   }
 }
 
