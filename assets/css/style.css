@@ -499,6 +499,7 @@ div#preloader {
   padding: 0;
   margin: 0;
   max-height: 140px;
+  width: 140px;
 }
 
 @media (max-width: 768px) {
