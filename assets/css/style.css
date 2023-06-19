@@ -477,13 +477,7 @@ div#preloader {
   box-shadow: rgb(43, 22, 163);
 }
 
-#header .logo h1 5 {
-  font-size: 76px;
-  margin: 0;
-  padding: 0;
-  line-height: 1;
-  font-weight: bold;
-}
+
 
 #header .logo h1 span {
   color: #3ec1d5;
@@ -563,17 +557,16 @@ div#preloader {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 2px 10px 30px;
-  font-size: 15px;
+  padding: 10px 10px 10px 30px;
+  font-size: 10px;
   font-weight: 750;
-  color: rgba(8, 3, 68, 0.87);
+  color: rgba(6, 3, 46, 0.87);
   white-space: nowrap;
   transition: 0.3s;
 }
 
 .navbar a i,
 .navbar a:focus i {
-  font-size: 15px;
   line-height: 0;
   margin-left: 5px;
 }
@@ -612,7 +605,7 @@ div#preloader {
 }
 
 .navbar .dropdown ul a i {
-  font-size: 12px;
+  font-size: 1px;
 }
 
 .navbar .dropdown ul a:hover,
