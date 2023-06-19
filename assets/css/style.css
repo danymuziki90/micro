@@ -687,20 +687,21 @@ div#preloader {
 .navbar-mobile ul {
   display: block;
   position: absolute;
-  top: 55px;
-  right: 15px;
-  left: 15px;
-  padding: 1px 0;
-  background-color: #832020;
+  top: 0;
+  right: 0px;
+  left: 0px;
+  padding:  0;
+  background-color: #080c46e8;
   overflow-y: auto;
-  transition: 0.3s;
+  transition: 0.9s;
+  padding: 80px;
 }
 
 .navbar-mobile a,
 .navbar-mobile a:focus {
   padding: 10px 20px;
   font-size: 15px;
-  color: #0d2529;
+  color: #000000;
 }
 
 .navbar-mobile a:hover,
