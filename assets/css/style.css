@@ -10,6 +10,7 @@ body {
   width: 100%;
   margin: 0;
   padding: 0;
+
 }
 
 .floatleft {
@@ -764,8 +765,8 @@ div#preloader {
 --------------------------------------------------------------*/
 #hero {
   width: auto;
-  background: #f0fafc;
   height: 100%;
+  background: #f0fafc;
   overflow: hidden;
   position: relative;
 }
@@ -1526,7 +1527,7 @@ h3 {
   padding-top: 40px;
   background: #001447;
   min-height: 600px;
-  align-items: flex-start;
+  align-items: ;
 }
 
 .footer-head p,
