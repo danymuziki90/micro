@@ -463,7 +463,7 @@ div#preloader {
 # Header
 --------------------------------------------------------------*/
 #header {
-  height: 150px;
+  height: 200px;
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
@@ -472,7 +472,7 @@ div#preloader {
 
 #header.header-scrolled {
   background: rgb(255, 255, 255);
-  height: 164px;
+  height: 180px;
   box-shadow: rgb(43, 22, 163);
 }
 
