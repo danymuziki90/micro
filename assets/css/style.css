@@ -993,7 +993,7 @@ height: 170px;
 }
 .single-services {
   text-align: center;
-  border-color: #ffffff;
+  border-color: none;
 }
 .single-services p {
   align-items: center;
@@ -1044,7 +1044,7 @@ height: 170px;
 }
 
 .single-team-member {
-  border: 2px solid #0ae7e7e0;
+  
 }
 
 .team-left-text h4 {
@@ -2002,7 +2002,7 @@ li {
 }
 
 .contact-area {
-  background-color: #f1fdfd;
+  background-color: #ffffff;
 }
 .contact-form p {
   color: white;
@@ -2021,6 +2021,7 @@ li {
 .single-icon {
   padding: 35px;
   margin-bottom: 1rem;
+  background-color: #e8ffff;
 }
 
 .single-icon i {
