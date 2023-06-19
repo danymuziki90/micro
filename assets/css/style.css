@@ -64,7 +64,7 @@ h5,
 h6 {
   font-family: 'Hanken Grotesk';
   margin: 0 0 15px;
-  color: #051b5a;
+  color: #000000;
   font-weight: 500;
 }
 
@@ -152,7 +152,7 @@ body {
 
 
 .work-right-text h6{
-  color: #080d49e1cc;
+  color: #000000;
   font-size: 5vh;
   font-weight: 700;
   line-height: 50px;
