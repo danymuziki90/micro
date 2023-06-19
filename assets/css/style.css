@@ -1800,10 +1800,6 @@ li {
     font-size: 18px;
   }
 
-  .contact-form {
-    height: 100%;
-   
-  }
 
   .search-option input {
     {
@@ -1993,8 +1989,9 @@ li {
   background-color: #0fcee7d7;
 }
 .contactform {
-  padding: 40px;
+  padding: 50px;
   background-color: #2b5c94;
+  
 }
 .contact-area input{
   height: 60px;
