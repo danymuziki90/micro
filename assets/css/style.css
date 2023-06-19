@@ -183,8 +183,7 @@ body {
 # Contact
 --------------------------------------------------------------*/
 .contact-area {
-  height: 100%;
-  width: 100%;
+
   padding-top: 20rem;
 }
 
@@ -765,7 +764,6 @@ div#preloader {
 --------------------------------------------------------------*/
 #hero {
   width: auto;
-  height: 100%;
   background: #f0fafc;
   overflow: hidden;
   position: relative;
@@ -2095,8 +2093,6 @@ h7 {
 .testimonials-slider img{
   width: 100%;
 }
-
-
 
 
 
