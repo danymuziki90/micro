@@ -1802,7 +1802,8 @@ li {
   }
 
   .contact-form {
-    bottom: 100px;
+    height: 100%;
+    bottom: 50px;
   }
 
   .search-option input {
@@ -2163,5 +2164,6 @@ background-color: white;
      color: #fff !important;
  }
  
- 
- 
+ .contact-area{
+  padding-bottom: 100px;
+ }
