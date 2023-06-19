@@ -151,8 +151,8 @@ body {
 }
 
 
-.work-right-text h6{
-  color: #d6d6d6c9;
+.work-right-text h2{
+  color: #d6d6d6fa;
   font-size: 5vh;
   font-weight: 700;
   line-height: 50px;
@@ -431,7 +431,7 @@ div#preloader {
 
 .section-headline h2 {
   display: inline-block;
-  font-size: 50px;
+  font-size: 45px;
   font-weight: 550;
   margin-bottom: 70px;
   position: relative;
@@ -439,7 +439,7 @@ div#preloader {
 }
 
 .section-headline h2::after {
-  border: 1px solid #333;
+  border: 1px solid #c2b00e;
   bottom: -20px;
   content: "";
   left: 0;
@@ -448,6 +448,7 @@ div#preloader {
   right: 0;
   width: 40%;
 }
+
 
 .sec-head {
   display: inline-block;
@@ -825,7 +826,6 @@ div#preloader {
 @media (max-width: 768px) {
   #hero h2 {
     font-size: 20px;
-    line-height: 1;
     font-weight: 50;
   }
 }
@@ -966,6 +966,7 @@ height: 170px;
 
 .section-headline.services-head > h2 {
   margin-bottom: 25px;
+
 }
 
 .services-details {
@@ -982,12 +983,9 @@ height: 170px;
   margin-top: 40px;
 }
 
-.section-head > h2 {
-  color: #333;
-}
 
 .single-services > h4 {
-  color: #001d67;
+  color: #9e7810;
   font-size: 32px;
   font-weight: 700;
 }
@@ -1745,8 +1743,8 @@ li {
   }
 
   .work-right-text h2 {
-    font-size: 14px;
-    line-height: 22px;
+    font-size: 40px;
+    line-height: 60px;
   }
 
   .work-right-text .ready-btn {
@@ -1837,7 +1835,8 @@ li {
   }
 
   .section-headline h2 {
-    font-size: 30px;
+    font-size: 26px;
+    font-family: 'Hanken Grotesk';
   }
 
   .well-middle .single-well {
@@ -2186,3 +2185,14 @@ img{
  .text-start{
   color: #eeeeeea1;
  }
+
+.aboutline p{
+  padding-bottom: 3rem;
+  border-bottom: #cdd6df;
+}
+.single-icon p{
+text-align: justify;
+}
+.single-services p{
+text-align: justify;
+}
