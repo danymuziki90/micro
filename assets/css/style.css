@@ -2994,7 +2994,7 @@ height: 170px;
 }
 h3 {
   font-size: 3vh;
-  padding: 1rem;
+  padding-top: 2rem;
 }
 .saleon {
   background: #3ec1d5 none repeat scroll 0 0;
@@ -3721,7 +3721,7 @@ button:hover {
 }
 .fcontactquote {
   background-color: #ffffff;
-  padding: 80px;
+  padding: 30px;
   margin-bottom: 5rem;
 }
 .fcontactquote h6 {
@@ -3733,6 +3733,7 @@ button:hover {
 .hero-container1 {
   display: inline-block;
   position: relative;
+  width: 100%;
   background-color: #f2fbff;
 }
 .fcontactquote {
@@ -3744,15 +3745,15 @@ button:hover {
   bottom: 0%;
   min-height: 500px;
   max-height: 550px;
-  min-width:530px ;
-  max-width: 750px;
+  min-width:400px;
+  max-width: 100px;
 }
 h7 {
-    background-color: #ffff;
-    padding: 1.8vh;
+    background-color: #fff9;
+    padding: 1vh;
     font-size: xxx-small;
     font-weight: 550;
-    color: #001d67ab;
+    color: black;
     position: absolute;
     margin: 0;
     left: 0;
