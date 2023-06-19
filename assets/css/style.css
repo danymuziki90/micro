@@ -194,7 +194,7 @@ body {
 }
 
 .single-icon p {
-  font-size: 16px;
+  font-size: 14px;
   line-height: 30px;
 }
 
@@ -1002,7 +1002,7 @@ height: 170px;
 }
 .single-services > p {
   color: #0a1946f1;
-  font-size: 1.8vh;
+  font-size: 14px;
   font-weight: 500;
   padding: 1rem;
   line-height: 20px;
@@ -2221,3 +2221,4 @@ text-align: justify;
 .others{
 width: 100%;
 }
+.services-icon p{ font-size: 14px;}
