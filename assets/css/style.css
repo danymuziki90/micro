@@ -63,7 +63,7 @@ h4,
 h5,
 h6 {
   font-family: 'Hanken Grotesk';
-  margin: 0 0 15px;
+  margin: 0;
   color: #000000;
   font-weight: 500;
 }
@@ -74,9 +74,9 @@ h1 {
 }
 
 h2 {
-  line-height: 60px;
+  line-height:60px;
   color: #14375d;
-  font-size: 150px;
+  font-size: 1405px;
   font-weight: 700;
 }
 
@@ -152,14 +152,14 @@ body {
 
 
 .work-right-text h6{
-  color: #000000;
+  color: #d6d6d6c9;
   font-size: 5vh;
   font-weight: 700;
   line-height: 50px;
   text-transform: uppercase;
 }
 ..work-right-text p{
-  color: #7c1010;
+  color: #e2e2e2c9;
 }
 
 .work-right-text .sus-btn {
@@ -431,7 +431,7 @@ div#preloader {
 
 .section-headline h2 {
   display: inline-block;
-  font-size: 55px;
+  font-size: 50px;
   font-weight: 550;
   margin-bottom: 70px;
   position: relative;
@@ -2178,4 +2178,11 @@ background-color: white;
  }
  .section-headline{
   
+ }
+img{
+  width: fit-content;
+ }
+
+ .text-start{
+  color: #eeeeeea1;
  }
