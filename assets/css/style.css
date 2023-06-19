@@ -50,7 +50,6 @@ img {
 
 p {
   font-size: 12px;
-  color: #cdd0d8ee;
 }
 
 h1,
@@ -969,11 +968,7 @@ div#preloader {
   text-align: center;
   border-color: none;
 }
-.single-services p {
-  align-items: center;
-  justify-content: center;
-  color: black;
-}
+
 .single-services > p {
   color: #0a1946f1;
   font-size: 14px;
@@ -2182,4 +2177,12 @@ img {
 .aboutline p {
   padding-bottom: 3rem;
   border-bottom: #dbe0e6;
+}
+.single-services p {
+  align-items: center;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+}
+.aboutline p{
+  color: #b3b6be;
 }
