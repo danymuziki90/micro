@@ -2067,6 +2067,7 @@ button:hover {
   width: 100%;
   background-color: #f2fbff;
 }
+
 .fcontactquote {
   z-index: 1;
   position: absolute;
@@ -2213,6 +2214,10 @@ text-align: justify;
 @media(min-width: 750px){
   .others {
  min-width: 170%;
+}
+.container1{
+  padding-left: 120px;
+  padding-right: 120px;
 }
 }
 .others{
